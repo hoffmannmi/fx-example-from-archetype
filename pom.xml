@@ -9,15 +9,15 @@
         <maven.compiler.source>10</maven.compiler.source>
         <maven.compiler.target>10</maven.compiler.target>
     </properties>
+
     <dependencies>
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-controls</artifactId>
-            <version>12-ea+10</version>
-        </dependency>
-		
-		
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-controls</artifactId>
+			<version>11.0.2</version>
+		</dependency>
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -39,7 +39,7 @@
                 </configuration>
             </plugin>
 			
-						<plugin>
+			<plugin>
 			    <groupId>org.apache.maven.plugins</groupId>
 			    <artifactId>maven-dependency-plugin</artifactId>
 			    <executions>
